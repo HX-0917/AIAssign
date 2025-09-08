@@ -1,0 +1,129 @@
+{
+  "intents": {
+    "greeting": {
+      "patterns": ["hi", "hello",
+        "hey", "good morning",
+        "good afternoon",
+        "good evening",
+        "hiya", "yo", "sup",
+        "what's up",
+        "howdy", "greetings",
+        "morning",
+        "afternoon", "evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there 👋, what can I do for you?",
+        "Hey! Need any assistance?",
+        "Welcome back! How may I assist you?",
+        "Good to see you! How can I support you today?",
+        "Hi 👋, what brings you here today?",
+        "Hello! Need help with something?",
+        "Hey there! How can I make your day easier?",
+        "Hi, I’m here to help! What do you need?",
+        "Welcome! How can I assist you right now?",
+        "Hi there, looking for some support?",
+        "Hello! What can I do for you today?"
+      ],
+      "placeholders": {}
+    },
+    "exit": {
+      "patterns": ["quit", "q",
+        "bye", "exit", "goodbye",
+        "see you", "see ya", "later",
+        "talk to you later",
+        "take care", "farewell",
+        "catch you later", "close"],
+      "responses": [
+        "👋 Thanks for chatting with me! Have a great day.",
+        "See you soon! Take care 🙌",
+        "Goodbye! Wishing you a wonderful day ahead 🌟",
+        "Bye for now! Feel free to reach out anytime 💬",
+        "Take care! I’ll be here if you need more help 😊",
+        "👋 Have a great one! Looking forward to chatting again.",
+        "Goodbye! Stay safe and well 🌿",
+        "Catch you later! 👋",
+        "It was nice talking with you. Have a great day 🌞",
+        "Thanks for your time! Goodbye 🙏"
+      ],
+      "placeholders": {}
+    },
+    "place_order": {
+      "patterns": [
+        "I want to place an order",
+        "Can you help me order",
+        "Order product",
+        "Buy item"
+      ],
+      "responses": [
+        "Sure! I'd be happy to help you place an order. Could you please provide me with the product details (name, quantity, or order number if available)?",
+        "Of course! To place an order, please share the product details such as the name and quantity you'd like to purchase. Once I have that, I can guide you through the next steps."
+      ],
+      "placeholders": {
+        "Order Number": "\\b\\d{3,}\\b"
+      }
+    }
+  },
+  "placeholders": {
+    "{{Customer Support Hours}}": [
+      "Mon–Fri, 9 AM – 6 PM",
+      "24/7 including holidays"
+    ],
+    "{{Customer Support Phone Number}}": [
+      "+60-123-456-789",
+      "1800-555-888",
+      "+60-987-654-321"
+    ],
+    "{{Website URL}}": [
+      "https://www.example.com",
+      "https://help.example.com"
+    ],
+    "{{Company Name}}": [
+      "Smart Support Inc."
+    ],
+    "{{Online Company Portal Info}}": [
+      "Visit our secure company portal at https://portal.example.com",
+      "Access your account at https://mycompany.example.com"
+    ],
+    "{{Online Order Interaction}}": [
+      "Track and manage your order in the Orders section of our portal",
+      "Log in to view your recent orders and shipping updates"
+    ],
+    "{{Company}}": [
+      "NovaTech Solutions",
+      "Summit Global",
+      "BrightPath Solutions"
+    ],
+    "{{Salutation}}": [
+      "Mr.",
+      "Ms.",
+      "Mrs.",
+      "Dr.",
+      "Prof.",
+      "Dear"
+    ],
+    "{{Date Range}}": [
+      "1–7 Jan 2025",
+      "15–31 Dec 2024",
+      "1–30 Nov 2024",
+      "Q1 2025",
+      "June–July 2025",
+      "Full Year 2024"
+    ],
+    "{{Order Number}}": ["<dynamic>"],
+    "{{Tracking Number}}": ["<dynamic>"],
+    "{{Invoice Number}}": ["<dynamic>"],
+    "{{Account Type}}": ["<dynamic>"],
+    "{{Account Category}}": ["<dynamic>"],
+    "{{Money Amount}}": ["<dynamic>"],
+    "{{Refund Amount}}": ["<dynamic>"],
+    "{{Person Name}}": ["<dynamic>"],
+    "{{Client Last Name}}": ["<dynamic>"],
+    "{{Contact Method}}": [
+      "by phone at +60-123-456-789",
+      "via email at support@example.com",
+      "through our Live Chat on the website",
+      "on WhatsApp at +60-987-654-321"
+    ]
+  }
+}
